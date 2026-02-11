@@ -1,0 +1,26 @@
+export default {
+    metadata: {
+        title: 'Tactico - 無料サッカー戦術ボード | Soccer Tactics Board',
+        description: 'インストール不要、ブラウザですぐに使える無料のサッカー戦術ボード（作戦ボード）。ドラッグ&ドロップで選手やボールを動かし、フォーメーションやセットプレーをシミュレーション。PC、タブレット、スマホ対応。',
+        keywords: 'サッカー, 戦術ボード, 作戦ボード, フォーメーション, 監督, コーチ, アプリ, 無料, ブラウザ, soccer, tactics board, formation',
+    },
+    ui: {
+        appName: 'Tactico Board',
+        numbers: '背番号',
+        names: '名前',
+        reset: '配置をリセット',
+        adLabel: '広告',
+        adPlaceholder: 'バナー広告スペース (728x90)',
+        homeTeam: 'ホームチーム',
+        awayTeam: 'アウェイチーム',
+        kitColor: 'ユニフォーム色:',
+        playerNo: 'No.',
+        playerName: '名前',
+        possession: 'ボール保持',
+        zone: 'エリア',
+        neutral: 'ニュートラル',
+        defensiveThird: 'ディフェンシブサード',
+        middleThird: 'ミドルサード',
+        attackingThird: 'アタッキングサード',
+    },
+} as const;

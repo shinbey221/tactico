@@ -1,0 +1,26 @@
+export default {
+    metadata: {
+        title: 'Tactico - Free Soccer Tactics Board',
+        description: 'Free soccer tactics board usable immediately in your browser without installation. Drag and drop players and ball to simulate formations and set pieces. Works on PC, tablet, and smartphone.',
+        keywords: 'soccer, tactics board, formation, coach, manager, app, free, browser',
+    },
+    ui: {
+        appName: 'Tactico Board',
+        numbers: 'Numbers',
+        names: 'Names',
+        reset: 'Reset Positions',
+        adLabel: 'Advertisement',
+        adPlaceholder: 'Space for Banner Ad (e.g. 728x90)',
+        homeTeam: 'Home Team',
+        awayTeam: 'Away Team',
+        kitColor: 'Kit Color:',
+        playerNo: 'No.',
+        playerName: 'Name',
+        possession: 'Possession',
+        zone: 'Zone',
+        neutral: 'Neutral',
+        defensiveThird: 'Defensive Third',
+        middleThird: 'Middle Third',
+        attackingThird: 'Attacking Third',
+    },
+} as const;

@@ -1,4 +1,6 @@
 export type TeamSide = 'home' | 'away';
+export type PossessionState = 'home' | 'away' | 'neutral';
+export type ZoneState = 'defensive' | 'middle' | 'attacking';
 
 export interface Position {
   x: number; // Percentage 0-100
@@ -27,5 +29,32 @@ export interface AppState {
     showNumbers: boolean;
     homeColor: string;
     awayColor: string;
+  };
+}
+
+export interface Dictionary {
+  metadata: {
+    title: string;
+    description: string;
+    keywords: string;
+  };
+  ui: {
+    appName: string;
+    numbers: string;
+    names: string;
+    reset: string;
+    adLabel: string;
+    adPlaceholder: string;
+    homeTeam: string;
+    awayTeam: string;
+    kitColor: string;
+    playerNo: string;
+    playerName: string;
+    possession: string;
+    zone: string;
+    neutral: string;
+    defensiveThird: string;
+    middleThird: string;
+    attackingThird: string;
   };
 }
